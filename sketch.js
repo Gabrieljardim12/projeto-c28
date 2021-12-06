@@ -106,7 +106,7 @@ function mouseReleased(){
 
 //create keyPressed function here
 function keyPressed (){
-  if (KeyCode === 32) {
+  if (keyCode === 32) {
     Matter.Body.setPosition(stoneObj.body, {x: 235 , y: 420}); 
     launcherObject.attach(stoneObj.body);
   }
